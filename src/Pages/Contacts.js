@@ -8,6 +8,7 @@ export default class Contacts extends Component {
                 
                 <h1 className="text-center"> Support </h1>
                 <Form>
+                    
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email </Form.Label>
                         <Form.Control type="email" placeholder="naprimer@mail.dk"/>

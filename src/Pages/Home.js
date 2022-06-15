@@ -7,9 +7,12 @@ export default class Home extends Component {
         return (
           <> 
             <CarouselBox />
+            
             <Container>
+                
                 <h2 className="text-center m-4"> iAmF4T4L.dk </h2>
                 <CardGroup>
+                   
                    <Card bg="light" border="dark">
                       <Card.Img 
                       variant="top"
@@ -21,6 +24,8 @@ export default class Home extends Component {
                         <Button href="/Engine" variant="outline-info">Начать</Button>
                       </Card.Body>
                    </Card>
+                   
+                   
                    <Card bg="light" border="dark">
                       <Card.Img 
                       variant="top"
@@ -32,8 +37,11 @@ export default class Home extends Component {
                         <Button href="/About" variant="outline-info">Перейти к ознакомлению</Button>
                       </Card.Body>
                    </Card>
+                
                 </CardGroup>
+            
             </Container>
+          
           </>
         ) 
     }
