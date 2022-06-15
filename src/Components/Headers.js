@@ -8,7 +8,7 @@ import About from "../Pages/About";
 import Contacts from "../Pages/Contacts";
 import Engine from "../Pages/Engine";
 
-class Headers extends Component {
+export class Headers extends Component {
     render() {
         return (
             <>
