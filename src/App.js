@@ -7,13 +7,9 @@ import { Headers } from "./Components/Headers";
 
 function App() {
   return (
-    
     <div>
-      
-     <Headers/>
-    
+      <Headers/>
     </div>
-  
   );
 }
 
